@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html"> HOME</a></li>
+            <li><a href="products.html"> PRODUCTS</a></li>
+            <li><a href="services.html"> SERVICES</a></li>
+            <li><a href="about-us.html"> ABOUT US</a></li>
+            <li><a href="contact-us.html"> CONTACT US</a></li>
+        </ul>
+    </nav>
+      <section id="contact" class="contact-section">
+        <div id="container">
+            <h2>Contact Us</h2>
+            <form action="/submit-form" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">  Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email</label>
+                    <input type="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                     <label for="message"> Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3><b> Our Location</b></h3>
+                <p>Unizik, Ifite, Awka, Anambra state, Nigeria</p>
+                <h3>Phone number</h3>
+                <p><b>07012609578</b></p>
+                <h3>Email</h3>
+                <p><b>bennybeautyaffairs@gmail.com</b></p>
+            </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>&copy; 2024 Bennybeautyaffairs. All rights reserved.</p>
+      </footer>
+</body>
+</html>
