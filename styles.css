@@ -194,6 +194,12 @@ button{
 button:hover{
     background-color: #c3558e;
 }
+a:hover{
+    color: #c3558e;
+}
+a:visited{
+    color: grey;
+}
 button:visited{
     color: grey;
 }
@@ -222,7 +228,6 @@ button:visited{
   margin: auto;
   text-wrap: none;
   margin-top: 50px;
-  border-radius: 20px;
 }
 
 /*footer section*/
