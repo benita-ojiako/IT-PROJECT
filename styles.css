@@ -211,6 +211,20 @@ button:visited{
     overflow-x: auto;
     border-radius: 20px;
 }
+/*essencella section*/
+#my-container{
+
+    background-image: url(./images/IMG_0823.JPG);
+  width:600px ;
+  height:600px ;
+  background-size: cover ;
+  background-position: center;
+  margin: auto;
+  text-wrap: none;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
 /*footer section*/
 footer{
     text-align: center;
@@ -218,4 +232,16 @@ footer{
     background: lightpink;
     color: #fff;
     font-size: 16px;
+}
+#paragraph{
+
+    margin-top: 100px ;
+    margin-bottom: 100px;
+}
+#main{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#h2{
+    margin-top: 50px;
 }
